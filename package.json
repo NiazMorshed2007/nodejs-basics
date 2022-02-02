@@ -1,0 +1,14 @@
+{
+  "name": "get-started",
+  "version": "1.0.0",
+  "description": "Getting started with Node",
+  "main": "app.js",
+  "scripts": {
+    "develop": "nodemon app.js"
+  },
+  "author": "Niaz Morshed",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

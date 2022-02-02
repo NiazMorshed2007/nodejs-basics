@@ -1,0 +1,9 @@
+const path = require("path");
+
+const fileLocation = path.join(__dirname, "app.js");
+
+const fileName = path.basename(fileLocation);
+
+const ext = path.extname(fileName);
+
+console.log(ext);
